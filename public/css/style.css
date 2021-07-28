@@ -21,8 +21,7 @@ header, .blog:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.title {
+  color: #1b89bc;
+  border-bottom: 1px solid #ccc;
 }

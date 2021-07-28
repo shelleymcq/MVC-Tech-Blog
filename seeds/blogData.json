@@ -1,14 +1,14 @@
 [
   {
-    "name": "The Thrills of CSS",
-    "description": "Like stuff centered? CSS can do that. Like blue? CSS can do that."
+    "title": "The Thrills of CSS",
+    "blog_text": "Like stuff centered? CSS can do that. Like blue? CSS can do that."
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+    "title": "The Ultimate Tech Quiz",
+    "blog_text": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
   },
   {
-    "name": "Back Ticks",
-    "description": "You love them, you hate them, the powerful yet badly placed back tick."
+    "title": "Back Ticks",
+    "blog_text": "You love them, you hate them - the powerful yet poorly placed back tick."
   }
 ]

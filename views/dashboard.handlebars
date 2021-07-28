@@ -10,12 +10,12 @@
 
     <form class="form new-blog-form">
       <div class="form-group">
-        <label for="blog-name">blog title:</label>
-        <input class="form-input" type="text" id="blog-name" name="blog-name" />
+        <label for="blog-title">blog title:</label>
+        <input class="form-input" type="text" id="blog-title" title="blog-title" />
       </div>
       <div class="form-group">
-        <label for="blog-desc">blog post:</label>
-        <textarea class="form-input" id="blog-desc" name="blog-desc"></textarea>
+        <label for="blog-text">blog post:</label>
+        <textarea class="form-input" id="blog-text" title="blog-text"></textarea>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Post</button>
@@ -30,7 +30,7 @@
     {{#each blogs as |blog|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/blog/{{blog.id}}">{{blog.name}}</a></h4>
+        <h4><a href="/blog/{{blog.id}}">{{blog.title}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button>

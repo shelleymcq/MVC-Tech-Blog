@@ -25,3 +25,9 @@ header, .blog:not(:last-child) {
   color: #1b89bc;
   border-bottom: 1px solid #ccc;
 }
+
+.text {
+  overflow: hidden; 
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}

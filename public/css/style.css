@@ -31,3 +31,8 @@ header, .blog:not(:last-child) {
   white-space: nowrap;
   text-overflow: ellipsis; 
 }
+
+.comment {
+  border-top: solid black 1px;
+  padding: 5px;
+}

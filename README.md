@@ -2,14 +2,14 @@
 ## Licensing:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-A CMS-style blog site, where users can publish their blog posts and comment on other users’ posts as well. This app follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. The app is deployed at Heroku https://tech-blog-mcq.herokuapp.com/
+A CMS-style blog site, where users can publish their blog posts and comment on other users’ posts as well. This app follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. This app is deployed at Heroku https://tech-blog-mcq.herokuapp.com/
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Technologies](#Technologies)
-* [Future Considerations](#Future)
+* [Next Steps](#Next)
 * [Contributors](#Contributors)
-* [Questions](#Questions)
+* [Contact](#Contact)
 ## Installation
 Fork this repo and download the files to your local environment. Install the dependencies and create a .env file.
 
@@ -34,9 +34,9 @@ Fork this repo and download the files to your local environment. Install the dep
 * Sequelize
 * Handlebars
 
-## Future Considerations
-The current app displays seeded comments to the single blog page, but not newly added comments. Additional functionality should include updating posts and deleting comments.
+## Next
+The current app displays seeded comments to the single blog page locally, but not newly added comments. Additional functionality should include updating posts and deleting comments.
 ## Contributors
 To contribute, please email me at the address below.
-## Questions 
+## Contact 
 https://github.com/shelleymcq or email me at shelleymcq.dev@gmail.com
